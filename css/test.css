@@ -1,0 +1,151 @@
+@media screen and (max-width: 414px) {
+/*IPHONE 6 (375x667) AND IPHONE 6 PLUS (414x736)*/
+	#background-apropos {
+		height: 450px;
+	}
+	#background-competences {
+		height: 450px;
+		}
+	#background-projets {
+		height: 450px;
+	}
+	#background-contact {
+		height: 450px;
+	}
+
+	#background-apropos p {
+		font-size: 4em;
+	}
+	#background-competences p {
+		font-size: 4em;
+	}
+	#background-projets p {
+		font-size: 4em;
+	}
+	#background-contact p {
+		font-size: 4em;
+	}
+
+/*PAGE ONE*/
+	#div1 {
+		height: 735px;
+	}
+	#div1 .title {
+		padding-top: 300px;
+		font-size: 40px;
+
+	}
+	.subtitle {
+		font-size: 20px;
+	}
+
+	/*PAGE TWO*/
+	#responsive img {
+		height: 156px;
+	}
+
+	#span-apropos-responsive {
+		    position: relative;
+		    bottom: 110px;
+		    font-size: 2em;
+	}	
+
+		#span-competences-responsive {
+			    position: relative;
+			    bottom: 110px;
+			    font-size: 2em;
+		}
+			#span-projets-responsive {
+				    position: relative;
+				    bottom: 110px;
+				    font-size: 2em;
+			}
+				#span-contact-responsive {
+					    position: relative;
+					    bottom: 110px;
+					    font-size: 2em;
+				}
+
+				#div2 img{
+					height: 196px;
+				}
+	
+	/*PAGE FOUR*/
+	#block-competences h1 {
+		font-size: 2em;
+	}
+
+	/*PAGE FIVE*/
+	#projets-img {
+		margin-left: 0;
+	}
+	#div5-projets ul a li div {
+	    width: 100%;
+	    height: 100%;
+	    float: left;
+	}
+	/*PAGE SIX SIX SIX SIX*/
+	#border {
+		padding: 13%;
+	}	
+
+	#contact-block2 h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2em;
+}
+
+@media screen and (max-width: 375px) {
+/*IPHONE 6 (375x667)*/
+	/*PAGE ONE*/
+	#div1 {
+		height: 666px;
+	}
+
+	#div1 .title {
+		padding-top: 250px;
+	}
+
+	.subtitle {
+	    font-size: 22px;
+	}
+
+	/*PAGE TWO*/
+		#responsive img {
+		height: 180px;
+	}
+
+	/*PAGE FIVE*/
+	#projets-img {
+		margin-left: 0;
+	}
+	#projets-img-block {
+    width: 78%;
+    margin: auto;
+}
+
+@media screen and (max-width: 320px) {
+/*IPHONE 5 320x568*/
+	/*PAGE ONE*/
+	#div1 {
+		height: 567px;
+	}
+	
+	#div1 .title {
+		font-size: 36px;
+		padding-top: 205px;
+	}
+
+	/*PAGE TWO*/
+	#responsive img {
+	height: 155px;
+	}
+
+	/*PAGE FIVE*/
+	#projets-img {
+		margin-left: 0;
+	}
+	#projets-img-block {
+	    width: 93%;
+	    margin: auto;
+	}
