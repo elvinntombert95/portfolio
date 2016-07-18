@@ -345,6 +345,7 @@
 		<div id="background-projets">
 				<p>PROJECTS</p>
 		</div>
+<center>
 		<div id="projets-img"> <!-- DEBUT projets-img -->
 			<ul> <!-- DEBUT UL -->
 				<div id="projets-img-block"> <!-- DEBUT projets-img-block -->
@@ -424,9 +425,9 @@
 									<span class="caption scale-caption">
 										<h3>DABB HERO</h3>
 											<p>
-												<em style="font-weight:bold;color:white">DABB HERO</em> est un jeu de rythme, proche du fameux jeu "Guitar Hero" mais entièrement codé en javascript.
+												<em style="font-weight:bold;color:white">DABB HERO</em> is a rhythm game close to the famous game "Guitar Hero" but coded in Javascript.
 											</p>
-												<a href="http://etombert.github.io/dabb_hero" target="blank"><button>VOIR LE PROJET</button></a>
+												<a href="http://etombert.github.io/dabb_hero" target="blank"><button>SEE THE PROJECT</button></a>
 									</span>
 							</div>
 						</div>
@@ -507,21 +508,6 @@
 						</div>
 					</li>
 
-					<li>
-						<div id="mainwrapper"><!-- YAO -->
-							<div id="box-6" class="box">
-								<img id="image-6" src="img/projet/web/yao.jpg"/>
-									<span class="caption scale-caption">
-										<h3>YAO</h3>
-											<p>
-												<em style="font-weight:bold;color:white">YAO</em> is an application that manages customer communication.
-											</p>
-												<a href="http://etombert.github.io/yao" target="_blank"><button>SEE THE PROJECT</button></a>
-									</span>
-							</div>
-						</div>
-					</li>
-
 				</ul> <!-- FIN UL -->
 			</div> <!-- FIN projets-img-block -->
 		</div><!-- FIN projets-img -->
@@ -576,6 +562,7 @@
 												</ul>
 														<a href="img/cv2.pdf" target="_blank"><button id="download"><em>DOWNLOAD MY Cv</em></button></a>	
 									</div> 
+								</center>
 							</div>
 					</div> <!-- FIN contact-block2 -->
 			</div>  <!-- DEBUT contact-block-all -->
@@ -624,25 +611,20 @@
 	$( ".cross" ).show();
 	});
 	});
-
 	$( ".cross" ).click(function() {
 	$( ".menu" ).slideToggle( "slow", function() {
 	$( ".cross" ).hide();
 	$( ".hamburger" ).show();
 	});
 	});
-
 	(function ($) {
   $(document).ready(function(){
-
     // hide .navbar first
     $("header").hide();
 //NAVBAR A AFFICHER - FIN
-
 // CACHER LE HEADER JUSQU'AU ('ABOUT') DEBUT
     $(function () {
         $(window).scroll(function () {
-
                  // set distance user needs to scroll before we start fadeIn
             if ($(this).scrollTop() > 1530) {
                 $('header').fadeIn();
@@ -651,7 +633,6 @@
             }
         });
     });
-
 	});
 	  }(jQuery));
 	// CACHER LE HEADER JUSQU'AU ('ABOUT') FIN
@@ -659,7 +640,3 @@
 
 </body><!-- FIN DU BODY -->
 </html><!-- FIN DU HTML -->
-
-<?php 
-require_once( 'conn.php' );
- ?>
